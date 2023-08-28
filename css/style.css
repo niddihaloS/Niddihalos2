@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1440px;
+    height: 2000px;
+    margin: 0 auto;
+    background-color: aqua;
+}
+
+.wrap {
+    margin: 0 auto;
+    padding: 0px 120px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 46px;
+}
+
+.header ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.header ul li a {
+    color: #0f001a;
+    font-size: 18px;
+}
+
+.header ul li .active {
+    color: #4A99D3;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 91px;
+}
+
+.hero_title {
+    width: 493px;
+    color: #260041;
+    font-size: 50px;
+    font-weight: 400px;
+    line-height: 70px;
+    letter-spacing: 1px;
+    padding-bottom: 14px;
+}
+
+.hero_span {
+    color: #d81b60;
+    font-size: 50px;
+    font-weight: 400px;
+    line-height: 70px;
+    letter-spacing: 1px;
+}
+
+.hero_text {
+    width: 500px;
+    color: #260041;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: 36px;
+    padding-bottom: 60px;
+}
+
+button {
+    border-radius: 5px;
+    background: #4A99D3;
+    padding: 14px 22px;
+    border: none;
+}
+
+.heroz_title {
+    width: 350px;
+   padding-top: 150px;
+    color: #260041;
+font-family: Objective;
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+letter-spacing: 1.8px;
+}
+.card {
+    width: 300px;
+    height: 315px;
+    padding-top: 20px;
+    border:none;
+    background-color: white;
+}
+.card img {
+    padding-left: 20px;
+}
+.arow p {
+    color: #4A99D3;
+    position: relative;
+    top: 20px;
+}
+.arow button {
+    background: white;
+    position: relative;
+    top: 20px;
+    left: 65px;
+}
